@@ -1,0 +1,29 @@
+# Android Studio / IntelliJ
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+/wrapper/
+
+# Временные папки
+/.tmp/
+/caches/
+/daemon/
+/native/
+/.kotlin/
+/android/
+/kotlin-profile/
+
+# Gradle
+.gradle/
+build/
+
+# Подписи и ключи
+*.jks
+*.keystore
+google-services.json
