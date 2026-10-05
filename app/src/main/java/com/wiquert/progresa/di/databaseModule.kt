@@ -13,5 +13,7 @@ val databaseModule = module {
             name = "progresa.db"
         ).build()
     }
-    single {get<AppDatabase>().studentDao()}
+    single {
+        get<AppDatabase>().studentDao()
+    }
 }
